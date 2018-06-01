@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $(".userdetail").hide();
+    });
+    $("input").click(function(){
+    	$(".userdetail").show();
+    })
+});
+</script>
+</head>
+<body>
+<h2>User Details</h2>
+<p>Name: <span class="userdetail">Manideep</span></p>
+<p>User Id: <span class="userdetail">217536</span></p>
+<p>Email id: <span class="userdetail">manideep@paytm.com</span></p>
+<p>Wallet Amount Rs: <span class="userdetail">1,00,000</span></p>
+<input type="button" name="show" value="View User Details">
+<button>Hide User Details</button>
+</body>
+</html>

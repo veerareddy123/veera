@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+//click event
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide();
+    });
+});
+
+//dblclick event
+// $(document).ready(function(){
+//     $("p").dblclick(function(){
+//         $(this).hide();
+//     });
+// });
+
+//mouseenter
+// $(document).ready(function(){
+//     $("p").mouseenter(function(){
+//         alert("You entered p1!");
+//     });
+// });
+
+//mouseleave
+// $("#p1").mouseleave(function(){
+//     alert("Bye! You now leave p1!");
+// });
+
+//hover
+// $("#p1").hover(function(){
+//     alert("You entered p1!");
+// },
+// function(){
+//     alert("Bye! You now leave p1!");
+// });
+
+//The On method
+// $(document).ready(function(){
+// $("p").on({
+//     mouseenter: function(){
+//         $(this).css("background-color", "lightgray");
+//     }, 
+//     mouseleave: function(){
+//         $(this).css("background-color", "lightblue");
+//     }, 
+//     click: function(){
+//         $(this).css("background-color", "yellow");
+//     } 
+// });
+// });
+</script>
+</head>
+<body>
+
+<p>Hi Welcome to DigitalLync</p>
+<p>Hi Veera</p>
+<p>Hello</p>
+
+<p id="p1">Hello World</p>
+
+</body>
+</html>

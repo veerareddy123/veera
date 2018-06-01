@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+p {
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 5s;
+}
+
+div {
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    /*position: relative;*/
+    animation-name: example1;
+    animation-duration: 5s;
+    /*animation-delay: 2s;*/
+    animation-delay: -2s;
+       /*animation-iteration-count: 3;*/
+          animation-iteration-count: infinite;
+}
+
+/* Standard syntax */
+/*@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+*/
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+@keyframes example1 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+</style>
+</head>
+<body>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<div></div>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+</body>
+</html>

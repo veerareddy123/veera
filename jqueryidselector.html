@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#username").hide();
+    });
+    $("input").click(function(){
+    	$("#username").show();
+    })
+});
+</script>
+</head>
+<body>
+<h2>User Name</h2>
+<p >Name: <span id="username">Manideep</span></p>
+<input type="button" name="show" value="View User Name">
+<button>Hide User Name</button>
+</body>
+</html>

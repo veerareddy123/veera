@@ -1,0 +1,69 @@
+Day 1
+
+NodeJs Architecture
+Understanding NPM
+Creating and locating Moules
+Package.json
+
+Day 2
+
+Creating  simple HTTP Server
+Routing with HTTP Server
+
+Day 3:
+
+Events & Streams
+
+Day 4
+
+Understanding aand installing ExpressJS
+Creating a basic ExpressJS app
+Understanding Routing in ExpressJS
+
+Day 5
+
+Advance Routing
+Serving Static files
+Template Engines
+
+Day 6
+
+Understanding Parameterized Routes
+Writing and Using Middlewares
+
+Day 7
+
+Handling Sessions
+Express Validator
+Working with Morgan
+
+Day 8
+
+Working with Multer
+Sending Mail using NodeMailer
+
+Day 9
+
+Introduction to MongoDB
+Installing MongoDB
+CRUD Operations
+
+Day 10
+
+Connecting MongoDB to Node using Mongoose
+Working with MongoDB
+CRUD Operations with Mongoose
+
+Day 11
+
+Passport Authentication
+Securing Passwords
+
+Day 12
+
+Understanding Socket.io
+Creating a Basic Socket.io app
+
+Day 13
+
+Creating simple chat app using Socket.io

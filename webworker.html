@@ -1,0 +1,56 @@
+<!-- <!DOCTYPE HTML>
+
+<html>
+   <head>
+      <title>Big for loop</title>
+      
+      <script>
+         function bigLoop() {
+            
+            for (var i = 0; i <= 10000; i += 1) {
+               var j = i;
+               alert("Completed " + j + "iterations" );
+            }
+            
+         }
+         
+         function sayHello(){
+            alert("Hello sir...." );
+         }
+      </script>
+      
+   </head>
+   
+   <body>
+      <input type = "button" onclick = "bigLoop();" value = "Big Loop" />
+      <input type = "button" onclick = "sayHello();" value = "Say Hello" />
+   </body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello Web Workers</title>
+    <meta charset="UTF-8" />
+</head>
+<body>
+    <div id="output"></div>
+
+    <script type="text/javascript">
+        // Instantiating the Worker
+        var myHelloWorker = new Worker('helloworkers.js');
+        // Getting ready to handle the message sent back
+        // by the worker
+        console.log(myHelloWorker)
+        myHelloWorker.addEventListener("message", function (event) {
+            document.getElementById("output").textContent = event.data;
+        }, true);
+
+        // Starting the worker by sending a first message
+        myHelloWorker.postMessage("David");
+
+        // Stopping the worker via the terminate() command
+        myHelloWorker.terminate();
+    </script>
+</body>
+</html>

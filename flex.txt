@@ -1,0 +1,15 @@
+ <div fxFlex.xs="100" fxFlex.sm="100" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" fxFlex="50">
+        <div class="head" fxFlex="50" fxLayout="column" fxLayoutAlign="center center">    
+              <h3>Welcome to</h3>
+                  <p>Malaysian Export Academy was registered in October 2007,
+                  to take over the activities of The Exporters Club of Malaysia
+                  specifically the Training & Education Unit. The Club has been
+                  active in Training especially proposal writing on International
+                  Trade and Exporting Subjects since the year 2000. </p>
+        </div>
+      </div>
+    <div fxLayout="column" fxFlex="50" fxLayout.xs="column"  fxLayoutAlign= "end center" fxFlex.xs="100" fxFlex.sm="100" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50">
+            <div class="data">
+                <img src="../../../assets/images/welcome-export-academy.png">
+            </div>
+    </div>
